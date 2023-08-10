@@ -1,0 +1,52 @@
+Problem Statement:
+Create a Cake website that allows counter owners to advertise and sell their cakes. Rural
+towns would be able to sell their commodities to the rest of the globe as a result of this.
+The suggested method entails the creation of a Web app for a cake shop. The user can
+purchase a nearby cake through the Website. An ECommerce App is a website that allows
+developers to promote and sell their products.
+The goal of this project is to establish a gateway that allows users to update product
+information securely using the Website and to purchase things online.
+
+System Modules:
+
+Admin
+● Login
+● Manage Products
+● Post Cake details
+● Upload images
+● Product Description
+● Manage Orders
+● Update order status
+● Shipping Location
+● Logout
+
+User
+● Register
+● Login
+● Search Cake
+● Filter
+● Category
+● Subcategory
+● Price Range
+● View Cake list
+● View cake description
+● Add to Cart
+● Place order
+● Add Shipping Address
+● Update Shipping Address
+● My Order
+● View Shipping Status
+
+Project Evaluation metrics:
+Code:
+● You are supposed to write a code in a modular fashion
+● Safe: It can be used without causing harm.
+● Testable: It can be tested at the code level.
+● Maintainable: It can be maintained, even as your codebase grows.
+● Portable: It works the same in every environment (operating system)
+● You have to maintain your code on GitHub.
+● You have to keep your GitHub repo public so that anyone can check your code.
+● Proper readme file you have to maintain for any project development.
+● You should include basic workflow and execution of the entire project in the readme
+file on GitHub
+● Follow the coding standards
