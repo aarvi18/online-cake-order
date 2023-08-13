@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  max-width: 1524px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  /* flex-wrap: wrap;
+  flex-direction: column; */
+}
+
+:root {
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --main-color: rgba(255, 145, 145, 0.425);
+  --secondary-color: rgba(0, 174, 255, 0.822);
+  --pane-padding: 5px 42px;
+}

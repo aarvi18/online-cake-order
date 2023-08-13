@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import ProductCards from '../components/ProductCards'
+
 
 const Home = () => {
   return (
-    <h1>Welcome from home</h1>
+    <>
+      < Navbar />
+      < ProductCards />
+    </>
   )
 }
 
