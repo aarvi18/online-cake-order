@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import ProductCards from '../components/ProductCards'
+import Productsec from '../components/Productsec'
+
 
 
 const Home = () => {
   return (
     <>
       < Navbar />
-      < ProductCards />
+      < Productsec />
     </>
   )
 }

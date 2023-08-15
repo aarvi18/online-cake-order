@@ -1,5 +1,7 @@
 .product {
+  display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
   
 }
 
@@ -80,4 +82,18 @@
   border-radius: 4px;
   cursor: pointer;
   background-color: var(--white);
+}
+
+/* Smartphone styles here */
+@media screen and (max-width: 480px) {
+
+    .card {
+      width: 80%;
+      /* background-color: var(--main-color); */
+    }
+    .product-img {
+      width: 100%;
+      
+
+    }
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css'
 
-// import Logo from '../images/logo.jpg'
+import Logo from '../images/logo.webp'
 
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
             <div className="navbar-container">
 
                 <div className="logo">
-                    <Link to="/"> Cake Order </Link>
+                    <Link to="/"> <img src={Logo} /> </Link>
                 </div>
 
                 <div className="cart">
