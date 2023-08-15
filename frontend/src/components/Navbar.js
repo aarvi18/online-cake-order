@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+
+import Searchbar from './Assets/Searchbar';
 import '../styles/Navbar.css'
 
 import Logo from '../images/logo.webp'
@@ -15,6 +17,10 @@ const Navbar = () => {
 
                 <div className="logo">
                     <Link to="/"> <img src={Logo} /> </Link>
+                </div>
+
+                <div className='search-bar'>
+                    < Searchbar />
                 </div>
 
                 <div className="cart">

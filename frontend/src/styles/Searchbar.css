@@ -1,0 +1,24 @@
+.search-bar {
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+input[type="text"] {
+  all: unset;
+  width: 100%;
+  /* background-color: var(--main-color); */
+  color: var(--secondary-color);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+
+  
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.151);
+}
+
