@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import Searchbar from './Assets/Searchbar';
+// import Searchbar from './Assets/Searchbar';
+import Login from './Assets/Login';
 import '../styles/Navbar.css'
 
 import Logo from '../images/logo.webp'
@@ -19,13 +20,17 @@ const Navbar = () => {
                     <Link to="/"> <img src={Logo} /> </Link>
                 </div>
 
-                <div className='search-bar'>
+                {/* <div className='search-bar'>
                     < Searchbar />
-                </div>
+                </div> */}
 
                 <div className="cart">
-                    <span className="cart-icon">🛒</span>
+
+                    < Login />
+
+                   <Link to='/Cart'> <span className="cart-icon">🛒</span> </Link>
                     <span className="cart-count">{cartItems}</span>
+
                 </div>
 
             </div>

@@ -22,10 +22,17 @@ const ProductDatas = [
     },
     {
         id: 4,
-        name: 'Dark Chocolate',
+        name: 'Chocolate',
         tag: 'https://butterry.com/image/cache/catalog/buttery/sq-choco-vanilla-cake0006chva-AA-1000x1000.jpg',
-        price: '1999',
+        price: '399',
         rating: '4.8 *'
+    },
+    {
+        id: 5,
+        name: 'Pineapple',
+        tag: 'https://assets.winni.in/product/primary/2022/9/73522.jpeg?dpr=1&w=400',
+        price: '599',
+        rating: '4.7 *'
     },
 ]
 
