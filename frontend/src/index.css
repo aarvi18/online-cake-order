@@ -32,3 +32,7 @@ code {
   --secondary-color: rgba(0, 174, 255, 0.822);
   --pane-padding: 5px 42px;
 }
+
+.fontawesomeicon {
+  color: black;
+}

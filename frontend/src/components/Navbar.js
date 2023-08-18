@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+
 // import Searchbar from './Assets/Searchbar';
 import Login from './Assets/Login';
 import '../styles/Navbar.css'
@@ -28,7 +31,7 @@ const Navbar = () => {
 
                     < Login />
 
-                   <Link to='/Cart'> <span className="cart-icon">🛒</span> </Link>
+                    <Link to='/Cart'> <span className="cart-icon"><FontAwesomeIcon icon={faCartShopping} className='fontawesomeicon' /></span> </Link>
                     <span className="cart-count">{cartItems}</span>
 
                 </div>
