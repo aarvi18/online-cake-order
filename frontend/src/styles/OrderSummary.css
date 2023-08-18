@@ -1,0 +1,19 @@
+/* OrderSummary.css */
+.order-summary {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 5px;
+    
+    padding: 20px;
+}
+.order-summary h3{
+    margin: 5px 0px;
+}
+.order-summary div{
+    margin: 50px 0px;
+}
+
+.order-summary p {
+    font-size: medium;
+}

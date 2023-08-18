@@ -1,0 +1,15 @@
+.AddtoCart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    width: 95%;
+}
+
+.Cart-Empty-Cnt {
+    margin: auto;
+}
+
+.AddtoCart .Order-Cnt {
+    width: 30%;
+}

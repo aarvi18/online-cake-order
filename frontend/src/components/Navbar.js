@@ -31,7 +31,7 @@ const Navbar = () => {
 
                     < Login />
 
-                    <Link to='/Cart'> <span className="cart-icon"><FontAwesomeIcon icon={faCartShopping} className='fontawesomeicon' /></span> </Link>
+                    <Link to='/AddtoCart'> <span className="cart-icon"><FontAwesomeIcon icon={faCartShopping} className='fontawesomeicon' /></span> </Link>
                     <span className="cart-count">{cartItems}</span>
 
                 </div>

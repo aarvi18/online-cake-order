@@ -13,6 +13,12 @@ code {
     monospace;
 }
 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 #root {
   max-width: 1524px;
   margin: auto;
@@ -22,6 +28,10 @@ code {
   display: flex;
   /* flex-wrap: wrap;
   flex-direction: column; */
+}
+
+.justify {
+  justify-content: space-between;
 }
 
 :root {

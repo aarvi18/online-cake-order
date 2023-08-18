@@ -1,13 +1,16 @@
 /* EmptyCartPage.css */
 .empty-cart-content img {
-    width: 20rem;
+    width: 15rem;
 }
 
 .empty-cart-container {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    min-height: 100vh;
+    min-height: 80vh;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between; */
 }
 
 .empty-cart-content {
