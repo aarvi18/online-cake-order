@@ -14,7 +14,7 @@ const CartEmpty = () => {
                     <img src={CartEmptyImage} />
                     <h2>Your Cart is Empty</h2>
                     <p>Add some items to your cart and start shopping!</p>
-                    <Link to='/'>Back to shopping</Link>
+                    <p> or <Link to='/'>Back to shopping</Link> </p>
                 </div>
             </div>
         </>

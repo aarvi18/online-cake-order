@@ -4,7 +4,6 @@
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 5px;
-    
     padding: 20px;
 }
 .order-summary h3{
@@ -16,4 +15,17 @@
 
 .order-summary p {
     font-size: medium;
+}
+
+.checkOutbtn {
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .order-summary {
+        width: 90%;
+        margin: auto;
+    }
+
+
 }

@@ -13,3 +13,19 @@
 .AddtoCart .Order-Cnt {
     width: 30%;
 }
+
+@media screen and (max-width: 480px) {
+    .AddtoCart {
+        margin: auto;
+        display: block;
+    }
+
+    .Cart-Empty-Cnt {
+        margin: 5rem auto;
+    }
+
+    .AddtoCart .Order-Cnt {
+        width: 100%;
+        margin: auto;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/OrderSummary.css'
 
+
 const OrderSummary = () => {
     return (
         <div className="order-summary">
@@ -17,7 +18,8 @@ const OrderSummary = () => {
                 <p>Total</p>
                 <p>₹0.00</p>
             </div>
-            <button className='btn1'>Checkout</button>
+            <button className='btn1 checkOutbtn'>Checkout</button>
+            
         </div>
     )
 }
