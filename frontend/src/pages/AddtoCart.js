@@ -2,6 +2,7 @@ import React from 'react'
 import CartEmpty from '../components/CartEmpty'
 import OrderSummary from '../components/OrderSummary'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 import '../styles/AddtoCart.css'
 
@@ -17,6 +18,7 @@ const AddtoCart = () => {
                     <OrderSummary />
                 </div>
             </div>
+        <Footer />    
         </>
 
     )
