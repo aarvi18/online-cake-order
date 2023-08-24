@@ -1,44 +1,28 @@
-import React, { useState } from 'react'
+import React from 'react'
+
+
+
 import './Test.css'
-
-
+import { useProductContext } from '../context/productcontext';
 
 const Test = () => {
 
-    const [blogs, setSetblogs] = useState([
-        {
-            title: 'Rakesh Kumar',
-            book: 'c++',
-            id: 1
-        },
-        {
-            title: 'Rahul Kumar',
-            book: 'c',
-            id: 2
-        },
-        {
-            title: 'Ronit Jaiswal',
-            book: 'Java',
-            id: 3
-        },
-    ]
-    );
+  const { myName } = useProductContext();
 
+  return (
 
+    <>
+      <div className='Test'>
 
-    return (
-        <div className='Test'>
-            {
-            blogs.map((blogs) => (
-                <div className='blog-preview' key={blogs.id}>
-                    <h2>Name : {blogs.title}</h2>
-                    <p>Books : {blogs.book} </p>
-                </div>
-            ))
-            }
-        </div>
+        <h1>
+          {myName}
+        </h1>
+        <span>This data is came from contextAPI</span>
 
-    )
+      </div>
+
+    </>
+  );
 }
 
 export default Test
