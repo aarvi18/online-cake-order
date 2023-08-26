@@ -6,6 +6,7 @@ import LoginPage from '../pages/Loginpage'
 import SignupPage from '../pages/SignupPage'
 import Test from '../Tests/Test'
 import AddtoCart from '../pages/AddtoCart'
+import SingleProduct from '../pages/SingleProduct'
 // import Productsec from '../Test/Productsec'
 
 const Rout = () => {
@@ -18,6 +19,7 @@ const Rout = () => {
                     <Route path="/Login" element={<LoginPage />} />
                     <Route path="/SignupPage" element={<SignupPage />} />
                     <Route path="/AddtoCart" element={<AddtoCart />} />
+                    <Route path="/Singleproduct" element={<SingleProduct />} />
                     <Route path="/Test" element={<Test />} />
                     {/* <Route path="/Productsec" element={<Productsec/>} /> */}
                     <Route path="*" element={<Notfound />} /> {/* This acts as a fallback for 404 */}

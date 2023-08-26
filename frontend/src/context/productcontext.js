@@ -1,8 +1,21 @@
-import { createContext, useContext } from "react";
+import { createContext, useContext, useEffect } from "react";
+import axios from 'axios';
 
 const AppContext = createContext();
 
+const API = 'https://aarvi18.github.io/ProductAPI/Product.json';
+
 const AppProvider = ({ children }) => {
+
+    const getProducts = async (url) => {
+        const res = await axios.get(url);
+        const products = await res.data;
+        
+    };
+
+    useEffect(() => {
+        getProducts(API);
+    }, []);
     return (
         <AppContext.Provider value={{ myName: 'Rakesh Kumar' }}>
             {children}
@@ -13,4 +26,4 @@ const useProductContext = () => {
     return useContext(AppContext);
 }
 
-export { AppProvider, AppContext ,useProductContext }
+export { AppProvider, AppContext, useProductContext }
