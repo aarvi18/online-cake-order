@@ -8,7 +8,7 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import Login from './Assets/Login';
 import '../styles/Navbar.css'
 
-import Logo from '../images/logo.webp'
+import Logo from '../images/logo.png'
 
 
 const Navbar = () => {
@@ -19,8 +19,8 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-container">
 
-                <div className="logo">
-                    <Link to="/"> <img src={Logo} /> </Link>
+                <div>
+                    <Link to="/"> <img className='logo' src={Logo} /></Link>
                 </div>
 
                 {/* <div className='search-bar'>
