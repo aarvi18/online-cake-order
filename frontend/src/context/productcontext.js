@@ -10,7 +10,7 @@ const AppProvider = ({ children }) => {
     const getProducts = async (url) => {
         const res = await axios.get(url);
         const products = await res.data;
-        
+
     };
 
     useEffect(() => {
