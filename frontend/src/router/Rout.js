@@ -19,7 +19,7 @@ const Rout = () => {
                     <Route path="/Login" element={<LoginPage />} />
                     <Route path="/SignupPage" element={<SignupPage />} />
                     <Route path="/AddtoCart" element={<AddtoCart />} />
-                    <Route path="/Singleproduct" element={<SingleProduct />} />
+                    <Route path="/Singleproduct/:id" element={<SingleProduct />} />
                     <Route path="/Test" element={<Test />} />
                     {/* <Route path="/Productsec" element={<Productsec/>} /> */}
                     <Route path="*" element={<Notfound />} /> {/* This acts as a fallback for 404 */}

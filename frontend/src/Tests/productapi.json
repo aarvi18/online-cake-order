@@ -1,0 +1,32 @@
+[
+    {
+        "id": "rakeshserialnoa",
+        "name": "Black Forest",
+        "flavour": "chocolate",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCgaIsfDv3Deimwp0YUaW37bf4bM1_wntHJw&usqp=CAU",
+        "price": 399,
+        "category": "cake",
+        "featured": true,
+        "rating": "4.7 *"
+    },
+    {
+        "id": "rakeshserialnob",
+        "name": "Red Volvet",
+        "flavour": "Volvet",
+        "image": "https://cdn.togetherv.com/red-velvet-heart-cake-main_1680775609.webp",
+        "price": 699,
+        "category": "cake",
+        "featured": true,
+        "rating": "3.5 *"
+    },
+    {
+        "id": "rakeshserialnoc",
+        "name": "Dark Chocolate",
+        "flavour": "chocolate",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRvCRsR1Pn7jG-p8-bsTLRKBPLRnUak2w3uA&usqp=CAU",
+        "price": 999,
+        "category": "cake",
+        "featured": true,
+        "rating": "4.5 *"
+    }
+]
