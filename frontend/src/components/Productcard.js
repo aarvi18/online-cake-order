@@ -14,7 +14,7 @@ const Productcard = (curElem) => {
 
     return (
 
-        <NavLink to={`/SingleProduct/${id}`}>
+        <NavLink to={`/SingleProduct/${id}`} className='navlink'>
 
             <div className='card'>
 
